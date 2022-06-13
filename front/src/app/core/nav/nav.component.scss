@@ -1,3 +1,8 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 nav {
     align-items: center;
     display: flex;
@@ -8,14 +13,18 @@ nav {
     & img{
         width: 20vw;
         margin-top: 50px;
+        margin-bottom: 20px;
     }
 
     & ul{
         display: flex;
         flex-direction: row;
         width: 100%;
-        justify-content: space-around;
+        justify-content: center;
         border-top: yellow solid 8px;
+        gap: 80px;
+        flex-wrap: wrap;
+        padding: 10px;
 
         & li{
 
@@ -24,6 +33,7 @@ nav {
             &:hover{
                 border-bottom: yellow 4px solid;
                 transition: 0.4s;
+                
             }
 
             & a{

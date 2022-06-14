@@ -2,7 +2,7 @@
 
 .discoCard{
     display: flex;
-    gap: 100px;
+    gap:5%;
     width: 600px;
     transition: 0.5s;
    
@@ -67,10 +67,19 @@
     margin-top: 50px;
     border-radius: 10vw;
     transition: 20s;
+    margin-left: 51px;
     &:hover{
         transform: rotate(360deg);
         transition: 20s;
       
 
     }
+}
+
+.encima{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: scale(-1);
+
 }

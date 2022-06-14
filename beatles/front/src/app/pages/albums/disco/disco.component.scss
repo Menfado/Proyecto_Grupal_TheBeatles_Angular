@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Nanum+Pen+Script&family=Simonetta:wght@900&display=swap');
+*{
+    font-family: 'Estonia', cursive;
+
+    font-family: 'Nanum Pen Script', cursive;
+
+    font-family: 'Simonetta', cursive;
+}
+
+.discoCard{
+    display: flex;
+    gap: 100px;
+    width: 600px;
+    transition: 0.5s;
+   
+    
+    &:hover{
+        transform: scale(1.1);
+        transition: 0.5s;}
+    
+    
+    & div{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: x-large;
+        & h3{
+            text-decoration: underline yellow;
+        }
+        & img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+.img1{
+    width:300px;
+    height:300px;
+    margin-top: 50px;
+    border-radius: 10vw;
+    transition: 20s;
+    &:hover{
+        transform: rotate(360deg);
+        transition: 20s;
+      
+
+    }
+}

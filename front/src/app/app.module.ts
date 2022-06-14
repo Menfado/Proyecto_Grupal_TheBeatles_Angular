@@ -9,6 +9,7 @@ import { BandComponent } from './pages/band/band.component';
 import { AlbumsComponent } from './pages/albums/albums.component';
 import { FormComponent } from './pages/form/form.component';
 import { DiscoComponent } from './pages/albums/disco/disco.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { DiscoComponent } from './pages/albums/disco/disco.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

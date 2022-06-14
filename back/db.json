@@ -1,108 +1,88 @@
 {
-    "albums": [
-      {
-        "id": 1,
-        "author": "The Beatles",
-        "title": "Please Please me",
-        "year": 1963 ,
-        "cover": "https://m.media-amazon.com/images/I/819oEzz9axL._SL1500_.jpg"
-
-      },
-      {
-        "id": 2,
-        "author": "The Beatles",
-        "title": "Whith the Beatles",
-        "year": 1963,
-        "cover": "https://www.amazon.es/Beatles/dp/B000002UAC"
-
-      },
-      {
-        "id": 3,
-        "author": "The Beatles",
-        "title": "A Hard Day´s Night",
-        "year": 1964,
-        "cover": "https://m.media-amazon.com/images/I/91VIeO-NmsL._SX466_.jpg"
-
-      },
-      {
-        "id": 4,
-        "author": "The Beatles",
-        "title": "Beatles for Sale",
-        "year": 1964,
-        "cover": "https://m.media-amazon.com/images/I/81GqdQzQz8L._SX450_.jpg"
-
-      },
-      {
-        "id": 5,
-        "author": "The Beatles",
-        "title": "Help!!",
-        "year": 1965,
-        "cover": "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/QVGZCGMJMZH5LAKF6VRH6NTFO4.jpg"
-
-      },
-      {
-        "id": 6,
-        "author": "The Beatles",
-        "title": "Rubber Soul",
-        "year": 1965,
-        "cover": "https://m.media-amazon.com/images/I/91ym3sMcvRL._SL1500_.jpg"
-
-      },
-      {
-        "id": 7,
-        "author": "The Beatles",
-        "title": "Revolver",
-        "year": 1966,
-        "cover": "https://m.media-amazon.com/images/I/61u+rBYz7yL._SY355_.jpg"
-
-      },
-      {
-        "id": 8,
-        "author": "The Beatles",
-        "title": "Sgt.Pepper´s Lonely Hearts Club Band",
-        "year": 1967,
-        "cover": "https://m.media-amazon.com/images/I/61aOxiD+N6L._SX466_.jpg"
-
-      },
-      {
-        "id": 9,
-        "author": "The Beatles",
-        "title": "Magical Mistery Tour",
-        "year": 1967,
-        "cover": "https://m.media-amazon.com/images/I/91LrXdPTwZL._SL1500_.jpg"
-
-      },
-      {
-        "id": 10,
-        "author": "The Beatles",
-        "title": "White Album",
-        "year": 1968,
-        "cover": "https://m.media-amazon.com/images/I/21IVvn7zGAL.jpg"
-
-      },
-      {
-        "id": 11,
-        "author": "The Beatles",
-        "title": "Yellow Submarine",
-        "year": 1969,
-        "cover": "https://m.media-amazon.com/images/I/91IaG+LrzmL._SL1500_.jpg"
-
-      },
-      {
-        "id": 12,
-        "author": "The Beatles",
-        "title": "Abbey Road",
-        "year": 1969,
-        "cover": "https://m.media-amazon.com/images/I/81sBKBIcwvL._SY355_.jpg"
-
-      },
-      {
-        "id": 13,
-        "author": "The Beatles",
-        "title": "Let It Be",
-        "year": 1970,
-        "cover": "https://m.media-amazon.com/images/I/81wQglJ7PyL._SL1500_.jpg"
-
-      }
-      ]
+  "albums": [
+    {
+      "id": 1,
+      "author": "The Beatles",
+      "title": "Please Please me",
+      "year": 1963,
+      "cover": "https://m.media-amazon.com/images/I/819oEzz9axL._SL1500_.jpg"
+    },
+    {
+      "id": 3,
+      "author": "The Beatles",
+      "title": "A Hard Day´s Night",
+      "year": 1964,
+      "cover": "https://m.media-amazon.com/images/I/91VIeO-NmsL._SX466_.jpg"
+    },
+    {
+      "id": 4,
+      "author": "The Beatles",
+      "title": "Beatles for Sale",
+      "year": 1964,
+      "cover": "https://m.media-amazon.com/images/I/81GqdQzQz8L._SX450_.jpg"
+    },
+    {
+      "id": 5,
+      "author": "The Beatles",
+      "title": "Help!!",
+      "year": 1965,
+      "cover": "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/QVGZCGMJMZH5LAKF6VRH6NTFO4.jpg"
+    },
+    {
+      "id": 6,
+      "author": "The Beatles",
+      "title": "Rubber Soul",
+      "year": 1965,
+      "cover": "https://m.media-amazon.com/images/I/91ym3sMcvRL._SL1500_.jpg"
+    },
+    {
+      "id": 7,
+      "author": "The Beatles",
+      "title": "Revolver",
+      "year": 1966,
+      "cover": "https://m.media-amazon.com/images/I/61u+rBYz7yL._SY355_.jpg"
+    },
+    {
+      "id": 8,
+      "author": "The Beatles",
+      "title": "Sgt.Pepper´s Lonely Hearts Club Band",
+      "year": 1967,
+      "cover": "https://m.media-amazon.com/images/I/61aOxiD+N6L._SX466_.jpg"
+    },
+    {
+      "id": 9,
+      "author": "The Beatles",
+      "title": "Magical Mistery Tour",
+      "year": 1967,
+      "cover": "https://m.media-amazon.com/images/I/91LrXdPTwZL._SL1500_.jpg"
+    },
+    {
+      "id": 10,
+      "author": "The Beatles",
+      "title": "White Album",
+      "year": 1968,
+      "cover": "https://m.media-amazon.com/images/I/21IVvn7zGAL.jpg"
+    },
+    {
+      "id": 11,
+      "author": "The Beatles",
+      "title": "Yellow Submarine",
+      "year": 1969,
+      "cover": "https://m.media-amazon.com/images/I/91IaG+LrzmL._SL1500_.jpg"
+    },
+    {
+      "id": 12,
+      "author": "The Beatles",
+      "title": "Abbey Road",
+      "year": 1969,
+      "cover": "https://m.media-amazon.com/images/I/81sBKBIcwvL._SY355_.jpg"
+    },
+    {
+      "id": 13,
+      "author": "The Beatles",
+      "title": "Let It Be",
+      "year": 1970,
+      "cover": "https://m.media-amazon.com/images/I/81wQglJ7PyL._SL1500_.jpg"
     }
+  ]
+}

@@ -6,7 +6,8 @@
       <h3>{{ disco.title }}</h3>
     <p>Author: {{ disco.author }}</p>
     <p>Year: {{disco.year}}</p>
+    <button  type="submit"  (click)="editDisco(disco)">Editar</button>
+    <button (click)="borrarDisco(disco)">Delete</button>
   </div>
-    <!-- <button (click)="editComic(comic)">Editar</button>!-->
   </figure>
   

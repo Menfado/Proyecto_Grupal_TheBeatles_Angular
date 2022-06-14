@@ -19,5 +19,33 @@ export class DiscosService {
   public getDiscos() {
     return this.httpClient.get("http://localhost:3000/albums")
   }
+
+  public clearDisco() {
+    this.discoData = {
+      id: "",
+      author: "",
+      title: "",
+      year: "",
+      cover: ""
+    }
+  }
+  public postDisco(newDisco: any) {
+    return this.httpClient.post("http://localhost:3000/albums", newDisco)
+  }
+
+  public putDisco(discoID: any, editedDisco: any) {
+    return this.httpClient.put("http://localhost:3000/albums/" + discoID, editedDisco)
+  }
+
+  public deleteDisco (discoID: any){
+    this.discoData = discoID;
+   return this.httpClient.delete("http://localhost:3000/albums/" + discoID)
+    
+  }
+  public editItem(item: any) {
+    this.discoData = item;
+  }
+
 }
+
 

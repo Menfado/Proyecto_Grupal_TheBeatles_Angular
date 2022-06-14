@@ -54,6 +54,9 @@ export class DiscosService {
   public editItem(item: any) {
     this.discoData = item;
   }
+  public soloUno(discoId:any){
+    return this.httpClient.get("http://localhost:3000/albums/" + discoId)
+  }
 
 }
 

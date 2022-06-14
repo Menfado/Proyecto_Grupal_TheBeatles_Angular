@@ -10,6 +10,7 @@ import { AlbumsComponent } from './pages/albums/albums.component';
 import { FormComponent } from './pages/form/form.component';
 import { DiscoComponent } from './pages/albums/disco/disco.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MediaComponent } from './pages/media/media.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BandComponent,
     AlbumsComponent,
     FormComponent,
-    DiscoComponent
+    DiscoComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule,

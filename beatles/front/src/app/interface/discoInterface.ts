@@ -3,5 +3,6 @@ export interface DiscoInterface {
     author: string;
     title: string;
     year: number;
-    cover: string
+    cover: string;
+    song: string;
 }

@@ -1,15 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Nanum+Pen+Script&family=Simonetta:wght@900&display=swap');
-*{
-    font-family: 'Estonia', cursive;
 
-    font-family: 'Nanum Pen Script', cursive;
-
-    font-family: 'Simonetta', cursive;
-    margin: 0;
-    padding: 0;
-   
-    
-}
 
 .abuelo{
     
@@ -74,10 +63,12 @@ form{
     font-size: xx-large;
     & h2{
          border-bottom-style: solid;
+         border-color: yellow;
          border-bottom-width: 5px;
          padding-bottom: 0.7%;
          width: fit-content;
          margin-bottom: 2%
+         
         
     }
     & label{

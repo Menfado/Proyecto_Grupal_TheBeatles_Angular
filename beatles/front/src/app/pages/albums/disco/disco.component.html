@@ -1,13 +1,15 @@
 <figure class="discoCard">
-   
-    <img class="img1" src="{{ disco.cover }}" alt="{{ disco.title }}" />
-    <div>
-      <img src="../../../../assets/disco/58e3852d204d556bbd97b14f.png" alt="">
-      <h3>{{ disco.title }}</h3>
+
+  <img class="img1" src="{{ disco.cover }}" alt="{{ disco.title }}" />
+  <div>
+    <img src="../../../../assets/disco/58e3852d204d556bbd97b14f.png" alt="">
+    <h3>{{ disco.title }}</h3>
     <p>Author: {{ disco.author }}</p>
     <p>Year: {{disco.year}}</p>
-    <button  type="submit"  (click)="editDisco(disco)">Editar</button>
-    <button (click)="borrarDisco(disco)">Delete</button>
+
+    <div class="horizontal">
+      <button type="submit" (click)="editDisco(disco)"><img src="../../../../assets/edit.png" alt=""></button>
+      <button (click)="borrarDisco(disco)"><img src="../../../../assets/trash.png" alt=""></button>
+    </div>
   </div>
-  </figure>
-  
+</figure>

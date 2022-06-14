@@ -73,7 +73,11 @@ form{
     width: 30%;
     font-size: xx-large;
     & h2{
-        text-decoration: underline yellow;
+         border-bottom-style: solid;
+         border-bottom-width: 5px;
+         padding-bottom: 0.7%;
+         width: fit-content;
+         margin-bottom: 2%
         
     }
     & label{

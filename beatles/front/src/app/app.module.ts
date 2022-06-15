@@ -11,8 +11,10 @@ import { FormComponent } from './pages/form/form.component';
 import { DiscoComponent } from './pages/albums/disco/disco.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MediaComponent } from './pages/media/media.component';
+
 import { SearchPipe } from './pipes/search.pipe';
 import { SafePipe } from './pipes/safe.pipe';
+
 
 
 @NgModule({
@@ -28,6 +30,7 @@ import { SafePipe } from './pipes/safe.pipe';
     SearchPipe,
     SafePipe,
     
+
   ],
   imports: [
     BrowserModule,

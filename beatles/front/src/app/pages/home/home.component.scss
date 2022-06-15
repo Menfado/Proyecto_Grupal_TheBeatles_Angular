@@ -1,0 +1,36 @@
+section{
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: space-around;
+    min-height: 100vh;
+    padding: 5% 2%;
+    background-color: black;
+
+ 
+
+    iframe{
+
+        border-radius: 12px;
+        width: 50%;
+        height: 200px;
+        margin: 0% auto;
+        
+    }
+
+    img{
+        width: 50%;
+        height: auto;
+        margin: auto;
+    }
+
+   
+
+    p{
+        margin: 0% 6%;
+       text-align: justify;
+        color: whitesmoke;
+        font-size: 1.5em;
+    }
+}

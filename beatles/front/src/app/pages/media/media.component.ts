@@ -9,6 +9,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class MediaComponent implements OnInit {
   public unDisco!: any; 
+  
+  
 
   constructor(private discosService: DiscosService, private activatedRoute: ActivatedRoute) { }
 
@@ -17,7 +19,8 @@ export class MediaComponent implements OnInit {
       const songId = params.get("songId");
       this.discosService.soloUno(songId).subscribe((data:any)=>{
         this.unDisco= data;
-        console.log(this.unDisco);
+        // console.log(this.unDisco);
+        console.log(this.unDisco.song);
       }
       )
     })

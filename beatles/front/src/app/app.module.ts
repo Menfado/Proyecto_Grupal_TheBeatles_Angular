@@ -11,7 +11,11 @@ import { FormComponent } from './pages/form/form.component';
 import { DiscoComponent } from './pages/albums/disco/disco.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MediaComponent } from './pages/media/media.component';
-import { IntegrantesComponent } from './pages/band/integrantes/integrantes.component';
+
+import { SearchPipe } from './pipes/search.pipe';
+import { SafePipe } from './pipes/safe.pipe';
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +27,10 @@ import { IntegrantesComponent } from './pages/band/integrantes/integrantes.compo
     FormComponent,
     DiscoComponent,
     MediaComponent,
-    IntegrantesComponent
+    SearchPipe,
+    SafePipe,
+    
+
   ],
   imports: [
     BrowserModule,
@@ -36,3 +43,4 @@ import { IntegrantesComponent } from './pages/band/integrantes/integrantes.compo
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export class AppPipesModule { }

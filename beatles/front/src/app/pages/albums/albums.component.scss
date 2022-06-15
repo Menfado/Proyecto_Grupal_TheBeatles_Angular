@@ -13,8 +13,22 @@ section{
     padding-top: 15px;
     height: 100px;
     flex-direction: column;
+
+    label{
+        font-size: x-large;
+        margin-top: 3%;
+        margin-bottom: 1%;
+        text-transform:uppercase;
+    }
     & input{
         width: 200px;
+        padding: 0.8%;
+        font-size: x-large;
+        border-radius: 20px;
+        &:focus{
+            outline: yellow solid 4px;
+            border: none;
+        }
 
     }
    }

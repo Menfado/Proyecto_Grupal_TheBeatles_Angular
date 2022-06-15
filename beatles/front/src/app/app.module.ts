@@ -14,7 +14,7 @@ import { MediaComponent } from './pages/media/media.component';
 
 import { SearchPipe } from './pipes/search.pipe';
 import { SafePipe } from './pipes/safe.pipe';
-
+import { IntegrantesComponent } from './pages/band/integrantes/integrantes.component';
 
 
 @NgModule({
@@ -29,6 +29,8 @@ import { SafePipe } from './pipes/safe.pipe';
     MediaComponent,
     SearchPipe,
     SafePipe,
+    IntegrantesComponent
+
     
 
   ],

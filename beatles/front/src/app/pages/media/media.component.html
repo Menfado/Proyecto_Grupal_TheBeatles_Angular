@@ -1,6 +1,13 @@
-<p>{{unDisco.year}}</p>
-<p>{{unDisco.title}}</p>
-<p>{{unDisco.song}}</p>
+<section>
+
+
+
+<!-- <img src="../../../assets/pngwing.com.png" alt="tocadiscos"> -->
+
+<div class="contendor">
+
+  <p>{{unDisco.title}}</p>
+
 <iframe *ngIf ="unDisco"
    
     [src]="unDisco.song | safe"
@@ -10,4 +17,11 @@
     allowfullscreen=""
     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
   ></iframe>
+
+</div>
+
+</section>
+
+
+
  

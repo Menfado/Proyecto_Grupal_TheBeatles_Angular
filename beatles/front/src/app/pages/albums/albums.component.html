@@ -1,4 +1,6 @@
 <section *ngIf="discos.length">
+
+  
   <div class="buscador">
     <label for="busqueda">Find your album</label>
     <input type="text" [(ngModel)]="filter" (ngModelChange)="onChangeFilter($event)" />

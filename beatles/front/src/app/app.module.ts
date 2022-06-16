@@ -15,6 +15,7 @@ import { MediaComponent } from './pages/media/media.component';
 import { SearchPipe } from './pipes/search.pipe';
 import { SafePipe } from './pipes/safe.pipe';
 import { IntegrantesComponent } from './pages/band/integrantes/integrantes.component';
+import { FooterComponent } from './core/footer/footer.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { IntegrantesComponent } from './pages/band/integrantes/integrantes.compo
     MediaComponent,
     SearchPipe,
     SafePipe,
-    IntegrantesComponent
+    IntegrantesComponent,
+    FooterComponent
 
     
 

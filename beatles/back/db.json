@@ -65,12 +65,11 @@
       "song": "https://open.spotify.com/embed/album/2BtE7qm1qzM80p9vLSiXkj?utm_source=generator"
     },
     {
-      "id": 10,
-      "author": "The Beatles",
       "title": "White Album",
-      "year": 1968,
+      "author": "The Beatles",
       "cover": "https://m.media-amazon.com/images/I/21IVvn7zGAL.jpg",
-      "song": "https://open.spotify.com/embed/album/1klALx0u4AavZNEvC4LrTL?utm_source=generator"
+      "year": 1970,
+      "id": 10
     },
     {
       "id": 11,

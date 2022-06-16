@@ -66,9 +66,10 @@
     width:300px;
     height:300px;
     margin-top: 50px;
-    border-radius: 10vw;
+    border-radius: 50%;
     transition: 20s;
     margin-left: 51px;
+    border: whitesmoke solid 10px;
     &:hover{
         transform: rotate(360deg);
         transition: 20s;
